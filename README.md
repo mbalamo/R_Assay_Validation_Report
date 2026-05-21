@@ -1,4 +1,4 @@
-# R_HTML_quality_report
+# R_Assay_Validation_Report
 Convert table of values to passing report for assay evaluation
 
 The aim of this R script is for internal evaluation of new primer designs. We call each design/target as assay, made up of one forward and one reverse primer. We then combine these assays in a 4-plex reaction. Do these primers work together as a 4-plex and maintain specificity? That is the question. To fail means an assay needs to be reworked or dropped from the multiplex. The output from the experiment is a relative florescence intensity (RFI), such as the kind you might get from qPCR with limited cycles (not to plateau but to the inflection point, thus different for different template staring amounts)
